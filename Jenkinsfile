@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Dev') {
             steps {
-                echo 'Dev Environment'
+                echo 'Dev Env'
             }
         }
         stage('Staging') {
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deployment'
+                echo 'Deployment Env'
             }
         }
         stage('Testing') {
